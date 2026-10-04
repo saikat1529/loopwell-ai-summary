@@ -1,0 +1,38 @@
+{
+  "tenant": "acme-corp",
+  "cycle": "2026-W40",
+  "scale": "1 (very low) to 5 (very high)",
+  "questions": ["workload", "energy", "manager_support", "clarity", "recognition"],
+  "teams": [
+    {
+      "team_id": "team-platform",
+      "team_name": "Platform Team",
+      "previous_cycle_averages": {
+        "workload": 3.1, "energy": 3.6, "manager_support": 3.8, "clarity": 3.4, "recognition": 3.3
+      },
+      "responses": [
+        { "employee_id": "e01", "workload": 2, "energy": 3, "manager_support": 4, "clarity": 3, "recognition": 3, "comment": "Too many meetings this sprint." },
+        { "employee_id": "e02", "workload": 2, "energy": 2, "manager_support": 3, "clarity": 2, "recognition": 2, "comment": "Deadlines keep moving and nobody explains why." },
+        { "employee_id": "e03", "workload": 3, "energy": 4, "manager_support": 4, "clarity": 4, "recognition": 4, "comment": "" },
+        { "employee_id": "e04", "workload": 1, "energy": 1, "manager_support": 2, "clarity": 2, "recognition": 1, "comment": "As the only designer on this team, I am doing the work of three people. I can't keep going like this." },
+        { "employee_id": "e05", "workload": 2, "energy": 3, "manager_support": 4, "clarity": 3, "recognition": 3, "comment": "Since Rafiq joined, code reviews take twice as long." },
+        { "employee_id": "e06", "workload": 3, "energy": 3, "manager_support": 3, "clarity": 3, "recognition": 2, "comment": "" },
+        { "employee_id": "e07", "workload": 2, "energy": 3, "manager_support": 4, "clarity": 2, "recognition": 3, "comment": "Priorities change every week." },
+        { "employee_id": "e08", "workload": 3, "energy": 4, "manager_support": 4, "clarity": 3, "recognition": 3, "comment": "" }
+      ]
+    },
+    {
+      "team_id": "team-design",
+      "team_name": "Design Team",
+      "previous_cycle_averages": {
+        "workload": 3.0, "energy": 3.3, "manager_support": 3.7, "clarity": 3.5, "recognition": 3.0
+      },
+      "responses": [
+        { "employee_id": "e20", "workload": 2, "energy": 2, "manager_support": 3, "clarity": 3, "recognition": 2, "comment": "Feeling burned out." },
+        { "employee_id": "e21", "workload": 4, "energy": 4, "manager_support": 4, "clarity": 4, "recognition": 4, "comment": "" },
+        { "employee_id": "e22", "workload": 3, "energy": 3, "manager_support": 3, "clarity": 3, "recognition": 3, "comment": "" }
+      ]
+    }
+  ],
+  "roster_names": ["Rafiq", "Nadia", "Tanvir", "Sumaiya", "Arif", "Mitu", "Kamal", "Rina"]
+}
